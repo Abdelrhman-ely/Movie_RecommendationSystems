@@ -1,0 +1,19 @@
+# Data
+ml-1m/
+
+# Trained models & artifacts
+models/
+*.keras
+*.pkl
+*.parquet
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
