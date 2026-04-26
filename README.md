@@ -31,33 +31,6 @@ This project implements a production-style recommendation system inspired by how
 
 ---
 
-## Project Structure
-
-```
-recommendationSysetms/
-├── main.py                        ← FastAPI backend
-├── streamlit_app.py               ← Streamlit frontend
-├── recommendation_system.ipynb    ← Training notebook
-├── requirements.txt               ← Python dependencies
-├── models/                        ← Saved artifacts
-│   ├── user_tower.keras
-│   ├── movie_tower.keras
-│   ├── ranking_model.keras
-│   ├── retrieval_model.keras
-│   ├── all_movie_vectors.npy
-│   ├── encoders.pkl
-│   ├── year_scaler.pkl
-│   ├── genre_cols.pkl
-│   ├── movie_full.parquet
-│   └── users.parquet
-└── ml-1m/                         ← Raw dataset
-    ├── ratings.dat
-    ├── movies.dat
-    └── users.dat
-```
-
----
-
 ## Pipeline
 
 ```
