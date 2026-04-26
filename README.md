@@ -228,11 +228,3 @@ streamlit run streamlit_app.py
 | Serialization | Pickle, Joblib, Parquet |
 | Environment | Virtual Environment (venv) |
 
----
-
-## Notes
-
-- User IDs range from **1 to 6,040**
-- First API startup takes ~30 seconds (models loading into memory)
-- Movie vectors are **pre-computed** at startup for fast O(N) inference
-- The `Lambda` layer in original models was replaced with `UnitNormalization` for Keras 3 serialization compatibility
