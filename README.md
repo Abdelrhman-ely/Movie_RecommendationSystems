@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
 A full end-to-end machine learning project that builds a **personalized movie recommendation system** using a two-stage **Retrieval + Ranking** architecture, trained on the MovieLens 1M dataset, and deployed with **FastAPI** + **Streamlit**.
 
